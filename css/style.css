@@ -268,3 +268,10 @@ a.tile:hover{background:rgba(248,244,234,.16)}
   .form-card{gap:12px}.form-card form{gap:12px}.field textarea{min-height:80px}
   .form-card h2{font-size:1.6rem}
 }
+@media (min-width:640px) and (max-width:899px){
+  .arch{width:min(100%,290px)}.arch img{aspect-ratio:1/1}
+  .hero .lead{margin:16px 0 22px}.hero{padding-top:32px}
+  .about-photo img{aspect-ratio:16/8}.about-card{padding:26px 28px;gap:12px}
+  #formulaire.band{padding-top:calc(var(--r) + 40px);padding-bottom:calc(var(--r) + 36px)}
+}
+@media (max-width:639px){.card .in{padding:12px 14px}}
